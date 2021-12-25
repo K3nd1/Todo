@@ -1,0 +1,15 @@
+Here i will be writing what i have learned while developing this app.//Android
+
+
+
+1.How to add the icon for the app:
+   - Get or create a png icon for your app
+   - The folder that needs to be changed is android/app/src/main/res
+   - There are the folders for each icon size and type(round or square)
+   - This link: https://romannurik.github.io/AndroidAssetStudio/index.html , generates the size for the folder with no much
+   effort(round and square size)
+   - Replace the older icons with the new ones(dont forget to make the new ones with the same name as the old)
+   - Because in the AndroidManifest.xml they are imported with that name.
+
+
+
