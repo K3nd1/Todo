@@ -8,7 +8,6 @@ const App: React.FC = () => {
   React.useEffect(() => {
     const init = async () => {
       // …do multiple sync or async tasks
-      console.log('herree finished');
     };
 
     init().finally(async () => {

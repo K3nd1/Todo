@@ -10,10 +10,8 @@
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
   },
   "lint-staged": {
-    "src/**/*.{ts,tsx}": [
-      "eslint --ext .tsx --ext .ts src/ --fix"
-    ],
-    "./src/**": [
+    "src/**/*.{ts,tsx,js,jsx}": [
+      "eslint --ext .tsx --ext .ts src/ --fix",
       "prettier --write ."
     ]
   },
