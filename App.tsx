@@ -1,3 +1,4 @@
+import 'react-native-gesture-handler';
 import React from 'react';
 import { SafeAreaView, StatusBar, Text, useColorScheme } from 'react-native';
 import RNBootSplash from 'react-native-bootsplash';
